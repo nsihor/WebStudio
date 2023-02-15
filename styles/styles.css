@@ -13,9 +13,6 @@
   --modal_overlay: #2e2f42;
   --hero_background: #2e2f42;
   --time_distribution: cubic-bezier(0.4, 0, 0.2, 1);
-  --phone: 480px;
-  --tablet: 768px;
-  --dasktop: 1200px;
 }
 
 /* general */
@@ -46,7 +43,9 @@ body {
   font-style: normal;
   color: var(--text);
 }
-
+.no-scroll {
+  overflow: hidden;
+}
 .visualy_hidden {
   position: absolute;
   white-space: nowrap;
