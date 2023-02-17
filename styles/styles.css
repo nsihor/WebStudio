@@ -1052,8 +1052,9 @@ main {
     width: 618px;
   }
   .portfolio_button_lists {
-    gap: 23px;
+    gap: 0;
     flex-wrap: nowrap;
+    justify-content: space-between;
   }
   .portfolio_button {
     padding: 12px 24px;
